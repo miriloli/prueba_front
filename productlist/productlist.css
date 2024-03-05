@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    list-style: none;
+}
+
+
+body {
+
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: -webkit-linear-gradient(top right, #ffffff, #e3e9ef 50%, #f3eedf, #ffffff);
+    overflow-x: hidden;
+
+}
+
+header,
+footer {
+    position: fixed;
+    width: 100vw;
+    background-color: #000000;
+    color: white;
+}
+
+
+header {
+    top: 0;
+    padding-bottom: 30px;
+    height: 80px;
+
+}
+
+header>nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>nav>div {
+    width: 30%;
+    height: 40px;
+
+}
+header>nav>ul {
+    width: 40%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header>nav>ul>li {
+    width: 25%;
+    height: 40px;
+
+}
+
+header>nav>ul>li>a {
+    width: 50%;
+    height: 40px;
+
+}
+#imagen_cart {
+    
+    filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(101%) contrast(107%);
+
+}
+#imagen_profile {
+    
+    filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(101%) contrast(107%);
+
+}
+
+
+main {
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-top: 100px;
+}
+
+/*
+Esto van ser los estilos de nuestros bloque producto
+*/
+#productlist {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.item {
+    width: 20%;
+    height: 350px;
+
+}
+
+.card {}
+
+.productIMG {}
+
+.productName {}
+
+.price {}
+
+.addCart {}
+
+
+footer {
+
+    bottom: 0;
+    text-align: center;
+    padding-top: 30px;
+    height: 70px;
+
+}

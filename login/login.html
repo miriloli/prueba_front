@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css" type="text/css">
+    <script src="../requestservice.js"></script>
+    <script defer src="login.js"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    
+        <main class="contenedor_login">
+            
+                <div class="logo">
+                <h3>LOGIN</h3>
+                </div>
+            
+
+            <div class="contenedor_email">
+                <span>
+                    <img id="imagen_user" src="../IMG/person.svg" alt="">
+                </span>
+                <input id="email" type="text" placeholder="Email">
+            </div>
+
+            <div class="contenedor_password">
+                <span>
+                    <img id="imagen_password" src="../IMG/password.svg" alt="">
+                </span>
+                <input id="password" type="password" placeholder="Password">
+            </div>
+
+            <div class="contenedor_info_adiccional">
+                <span id="span_recuerdame">
+                    <input id="recuerdame" type="checkbox">
+
+                    <label>
+                        Remenber me
+                    </label>
+                </span>
+
+                <a id="a_password" target="_blank">Forgot password?</a>
+            </div>
+
+            <div class="contenedor_boton_login">
+                <button id=boton_login type="button" onclick=""> Login </button>
+
+            </div>
+
+            <div class="contenedor_boton_registro">
+
+                <a id="a_registro" href="SignUp.html">Sign up</a>
+            </div>
+
+        </main>
+    
+    <footer>
+        Miriam Gallardo González-Amor &copy;2024
+    </footer>
+</body>
+
+</html>

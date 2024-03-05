@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(top right, #ffffff, #e3e9ef 50%, #f3eedf, #ffffff);
+    overflow-x:hidden;
+    padding-top: 60px;
+}
+.logo {
+    font-size: 2.0rem;
+    font-weight: 900;
+    
+
+}
+
+
+.contenedor_login {
+
+    width: 380px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+    gap: 30px;
+    column-gap: 30px;
+}
+
+.contenedor_logoUsuario {
+    width: 320px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logoUsuario {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#imagen_principal {
+    width: 200px;
+    height: 150px;
+    filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(101%) contrast(107%);
+
+}
+
+.contenedor_email {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 290px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+
+
+}
+
+#imagen_user {
+    width: 40px;
+    height: 60px;
+    filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(101%) contrast(107%);
+}
+
+#email {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.contenedor_password {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 290px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+
+
+}
+
+#imagen_password {
+    width: 40px;
+    height: 60px;
+    filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(101%) contrast(107%);;
+
+}
+
+#password {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+input {
+    border: none;
+}
+
+input::placeholder {
+
+    color: rgb(0, 0, 0);
+
+}
+
+.contenedor_info_adiccional {
+    width: 290px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 10px;
+
+}
+
+#span_recuerdame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: 50px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+
+#recuerdame {
+    width: 20px;
+    height: 20px;
+
+}
+
+#a_password {
+    align-self: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.contenedor_boton_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#boton_login {
+    font-size: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
+
+.contenedor_boton_registro {
+    width: 290px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+
+
+}
+
+#a_registro {
+    width: 150px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    align-self: center;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+
+
+}
+
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+}

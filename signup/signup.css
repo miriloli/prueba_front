@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: -webkit-linear-gradient(top right, #ffffff, #e3e9ef 50%, #f3eedf, #ffffff);
+    overflow-x: hidden;
+
+}
+
+
+.contenedor_signup {
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 70px;
+
+
+}
+
+.logo {
+    font-size: 2.0rem;
+    justify-self: flex-start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+.contenedor_email,
+.contenedor_phone,
+.contenedor_name,
+.contenedor_password,
+.contenedor_password_2 {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 290px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 15px 0;
+
+
+}
+
+#imagen_name,
+#imagen_password,
+#imagen_password2,
+#imagen_email,
+#imagen_phone {
+    width: 40px;
+    height: 60px;
+    filter: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(101%) contrast(107%);
+    padding-bottom: 3px;
+}
+
+#imagen_phone {
+    padding-bottom: 6px;
+}
+
+
+#email,
+#phone,
+#name,
+#password,
+#password2 {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: 1.4rem;
+}
+
+input {
+    border: none;
+}
+
+#passwordError {
+    width: 250px;
+    color: rgb(192, 18, 18);
+    margin-bottom: 10px;
+    display: none;
+}
+
+
+.contenedor_boton_signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#boton_signup {
+    font-size: 1.3rem;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
+
+
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+}
