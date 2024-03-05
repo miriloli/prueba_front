@@ -24,26 +24,28 @@ function createProductNode(product) {
 
     let name = document.createElement('p');
     name.className = 'productName';
+    name.innerHTML = product.name;
 
     let  price= document.createElement('h4');
     price.className = 'price';
+    price.innerHTML = product.price+' $';
 
     let image = document.createElement('img');
     image.className = 'productIMG';
-
-    name.innerHTML = product.name;
-    price.innerHTML = product.price;
-
-    //paranoyas del api preguntame
-    console.log('imagen pro',product.image );
-    product.image = product.image.replace('\\', '')
-    console.log('imagen pro AA',product.image );
     image.src = product.image;
+
+    let button = document.createElement('button')
+    button.className = 'addCart';
+    button.innerHTML = 'Add to cart';
+
+    
+    
+    
 
     contenedorDiv.appendChild(image);
     contenedorDiv.appendChild(name);
     contenedorDiv.appendChild(price);
-
+    contenedorDiv.appendChild(button);
 
     item.appendChild(contenedorDiv);
 
