@@ -19,6 +19,7 @@ body {
     justify-content: flex-start;
     background: -webkit-linear-gradient(top right, #ffffff, #e3e9ef 50%, #f3eedf, #ffffff);
     overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -34,13 +35,13 @@ footer {
 header {
     top: 0;
     padding-bottom: 30px;
-    height: 80px;
+    height: 70px;
 
 }
 
 header>nav {
     width: 100%;
-    height: 80px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,7 +58,7 @@ header>nav>div , ul {
 }
 
 header>nav>div>input{
-    height: 30px;
+    height: 26px;
     width: 200px;
 }
 
@@ -97,8 +98,9 @@ main {
     width: 100vw;
     display: grid;
     place-items: center;
-    height: auto;
-    margin-top: 100px;
+    height: calc(100vh - 150px);
+    margin: 70px auto;
+    overflow-y: auto;
 }
 
 /*
