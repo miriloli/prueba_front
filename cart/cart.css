@@ -161,6 +161,7 @@ footer {
 .productIMG {
     height: 100%;
     width: auto;
+    max-width: 200px;
     flex-grow: 0.4;
 }
 
